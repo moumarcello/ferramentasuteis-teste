@@ -2,6 +2,7 @@ body{
     background-color: rgb(0, 25, 48);
     font: normal 20px Arial;
     text-align: center;
+    height: 1dvh;
 
 
 }
@@ -47,5 +48,6 @@ select{
     padding: 7px;
 }
 p {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
 }
