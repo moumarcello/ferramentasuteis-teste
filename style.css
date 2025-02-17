@@ -13,6 +13,12 @@ h1{
 h2{
     color: antiquewhite;
 }
+h3{
+    color:antiquewhite;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 13px;
+}
 section{
     background-color: beige;
     max-width: 80%;
@@ -38,9 +44,28 @@ input{
     font: bold 16px Arial;
     border-radius: 10px;
 }
+
 .button:active{
     transform: scale(0.95);
 }
+.button2:active{
+    transform: scale(0.95);
+}
+.button2{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.144);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 300px;
+    background-color: white;
+    border: none;
+    padding: 7px;
+    font: bold 16px Arial;
+    border-radius: 10px;
+}
+.button:active{
+    transform: scale(0.95);
+}
+
 select{
     font-size: 20px;
     border: none;

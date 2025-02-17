@@ -56,3 +56,25 @@ function gerar10char() {
     }
     resultadoSenha.innerHTML = senha
 }
+
+function gerarEsp() {
+    let charsOiLetra = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJLMNOPQRSTUVWXYZ"
+    let tamanhoSenhaLetra = 14
+
+    let charsOiNum = "0123456789"
+    let tamanhoSenhaNum = 2
+
+    let senhaLetra = ""
+    let senhaNum = ""
+    
+    for (let i = 0; i < tamanhoSenhaLetra; i++) {
+        let aleatorio = Math.floor(Math.random() * charsOiLetra.length)
+        senhaLetra += charsOiLetra.substring(aleatorio, aleatorio + 1)
+    }
+    for (let i = 0; i < tamanhoSenhaNum; i++) {
+        let aleatorioNum = Math.floor(Math.random() * charsOiNum.length)
+        senhaNum += charsOiNum.substring(aleatorioNum, aleatorioNum + 1)
+    }
+    resOi.innerHTML = senhaLetra + senhaNum
+}
+
