@@ -1,4 +1,4 @@
-// parte 1
+// // Numeros randomicos:--------------------------------------
 let resultado = document.getElementById('res')
 
 function gerar4() {
@@ -17,7 +17,7 @@ function gerar8() {
     resultado.innerHTML = Math.floor(Math.random() * (maxm - minm +1)) + minm;
 }
 
-// parte 2
+// Senha Randômica:--------------------------------------
 
 let resultadoSenha = document.getElementById('resSenha')
 
@@ -56,6 +56,8 @@ function gerar10char() {
     }
     resultadoSenha.innerHTML = senha
 }
+
+// Senha específica:--------------------------------------
 
 function gerarEsp() {
     let charsOiLetra = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJLMNOPQRSTUVWXYZ"
