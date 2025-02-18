@@ -5,9 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ferramentas uteis</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #p1{
+            font-style: italic;
+            font-size: 16px;
+            color: rgb(192, 219, 255);
+            font-weight: lighter;
+}
+    </style>
+
 </head>
 <body>
     <h1>Ferramentas úteis</h1>
+    <p id="p1">Os dados não ficam salvos, não se preocupe.</p><br>
+
+    <h2>Gerador de senha específica sequencial:</h2>
+    <h3>17 caracteres, sendo 15 letras (5 sequências de 3 letras com somente a primeira maiúscula) e 2 números </h3>
+    <section>
+        <button onclick="gerarEsp2();" class="button2">
+            Gerar senha específica
+        </button>
+        <p id ="resEsp2">
+            Clique no botão acima
+    </section><br>
+
+    <h2>Gerador de senha específica:</h2>
+    <h3>16 caracteres, sendo 14 letras e 2 números, letras maiúsculas e minúsculas</h3>
+    <section>
+        <button onclick="gerarEsp();" class="button2">
+            Gerar senha específica
+        </button>
+        <p id ="resOi">
+            Clique no botão acima
+        </p>
+    </section><br>
 
     <h2>Gerador de senha randômica:</h2>
     <section>
@@ -27,17 +58,6 @@
         </p>
     </section><br>
 
-    <h2>Gerador de senha específica:</h2>
-    <h3>(16 caracteres, sendo 14 letras e 2 números, letras maiúsculas e minúsculas)</h3>
-    <section>
-        <button onclick="gerarEsp();" class="button2">
-            Gerar senha específica
-        </button>
-        <p id ="resOi">
-            Clique no botão acima
-        </p>
-    </section><br>
-
     <h2>Gerador de senha numérica:</h2>
     <section>
         <button onclick="gerar4();" class="button">
@@ -53,6 +73,7 @@
             Selecione um número acima
         </p>
     </section>
+
     <script src="script.js"></script>
 </body>
 </html>
